@@ -1,0 +1,1723 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Special+Elite&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cambay', sans-serif;
+    border: 1px solid black;
+}
+
+
+
+
+body {
+    font-family: 'Cambay', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    /* overflow: hidden; */
+
+}
+
+#carhartt {
+    background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+    background-size: 100%;
+    /* padding-bottom: 10rem; */
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+
+#carhartt h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0 0 0;
+    margin: 0 0 -70px;
+    font-size: 200px;
+    color: white;
+}
+
+#carhartt p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+
+}
+
+.explorar-prendas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.explorar-prendas img {
+    position: absolute;
+    margin: 0 0 0 610px;
+    width: 50px;
+    /* background-color: #e35b5b; */
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 30px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 400px;
+    border-radius: 30px;
+
+}
+
+
+.button span {
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #3d3d3dc0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    /* background-color: #000000; */
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 0 30px 0 0;
+    background-color: #000000a1;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-logo {
+    margin: 0 0 0 30px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar-links li {
+    margin: 0 0 0 50px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 40px 0 0;
+}
+
+.navbar-icons span {
+    font-size: 30px;
+}
+
+/* .checkbox,
+.icons {
+    display: none;
+} */
+
+.checkbox {
+    display: none;
+}
+
+.icons {
+    display: none;
+}
+
+
+
+/* CONTAINER-3 */
+
+.container-2 {
+    display: flex;
+    width: 100%;
+}
+
+.container-3 {
+    background-color: white;
+    /* border: 1px solid #000000; */
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    /* overflow: hidden; */
+
+}
+
+
+#back1 {
+    background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: -120% 5%;
+
+}
+
+#back2 {
+    background-image: url(../vintage/abrigos/hoodie.webp);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: -200% 10%;
+}
+
+#back3 {
+    background-image: url(../vintage/Pantalones/capenter.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: -300% 10%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 0;
+    padding: 0;
+    /* border: 1px solid #000000; */
+    width: 250px;
+}
+
+.card-content h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+
+
+}
+
+.card-content p {
+    /* margin-bottom: 10px; */
+    text-align: center;
+    /* padding: 0 50px; */
+}
+
+.card-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    /* border-radius: 4px; */
+
+}
+
+.card-content2 {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 0 0;
+    padding: 0;
+    /* border: 1px solid #000000; */
+    width: 250px;
+}
+
+.card-content2 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+
+
+}
+
+.card-content2 p {
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0 0 0;
+    /* padding: 0 50px; */
+}
+
+.card-content2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    /* border-radius: 4px; */
+
+}
+
+
+
+
+/* CARDS */
+
+.titulo1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.subtitulo1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px;
+    color: rgb(42, 148, 42);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.product-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 60px;
+    padding: 0;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(223, 219, 219, 0.1);
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 190px 0 0;
+    color: white;
+    font-size: 27px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h2 {
+    margin: 20px 15px 5px 15px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+
+.product-card .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(42, 148, 42);
+}
+
+/* CARDS OFERTAS */
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px;
+    color: #000;
+}
+
+.ofertas-container {
+    display: flex;
+    justify-content: center;
+
+
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+}
+
+/* COMO TRABAJAMOS */
+
+.titulo3 {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.subtitulo2 {
+    color: rgb(42, 148, 42);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.trabajo {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+    margin: 0 0 0 40px;
+}
+
+.card {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+.card-icon {
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-content h2 {
+    display: flex;
+    margin: 0 0 0 10px;
+
+
+}
+
+.card-content p {
+    display: flex;
+    margin: 0 0 0 10px;
+}
+
+/* FOOTER */
+
+footer {
+
+    min-height: 20vh;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.footer-map {
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgb(153, 115, 65);
+    position: relative;
+
+}
+
+.footer-map h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+
+
+}
+
+.footer-map h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+}
+
+
+.container-footer {
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    position: absolute;
+    margin: 60px 0 0 20px;
+
+}
+
+.container-footer img {
+    display: flex;
+    margin: 0 0 10px 10px;
+    /* border: 1px solid black; */
+    width: 150px;
+
+
+}
+
+.container-footer p {
+    margin: 5px 0 0 20px;
+
+    font-size: 16px;
+}
+
+.contenedor-redes {
+    /* border: 1px solid black; */
+    margin: 10px 0 0 20px;
+    display: flex;
+}
+
+.contenedor-redes span {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.contacto {
+    color: black;
+    list-style: none;
+}
+
+
+
+.lista-full2 {
+    display: flex;
+    justify-content: center;
+    /* grid-template-columns: repeat(2, 1fr); */
+    border: 1px solid #000;
+    /* width: 1000px; */
+
+    margin: 0 0 0 500px;
+}
+
+.lista-empresa {
+    display: flex;
+    justify-content: column;
+    flex-direction: column;
+
+}
+
+.lista-empresa h2 {
+    /* margin: 30px; */
+    display: flex;
+    justify-content: center;
+    margin: 60px 25px 5px 0;
+    font-size: 25px;
+    color: #000000;
+}
+
+.lista-empresa ul {
+    text-align: center;
+
+}
+
+.lista-empresa ul li {
+    display: block;
+    margin: 0 0 10px -25px;
+}
+
+.lista-empresa ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.lista-empresa ul li a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.lista-compra {
+    display: flex;
+    justify-content: column;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 300px;
+}
+
+
+.lista-compra h2 {
+    /* margin: 30px; */
+    display: flex;
+    justify-content: center;
+    margin: 60px 30px 10px 0;
+    font-size: 25px;
+    color: #000000;
+}
+
+.lista-compra ul {
+    text-align: center;
+
+}
+
+.lista-compra ul li {
+    display: block;
+    margin: 0 0 10px -25px;
+
+}
+
+.lista-compra ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.lista-compra ul li a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+
+.lista-full {
+    margin: 5px 0 0 600px;
+    display: flex;
+    justify-content: end;
+}
+
+.wpp {
+    border: 1px solid black;
+    display: inline-block;
+    /* display: flex; */
+    /* justify-content: end;
+    align-items: center; */
+
+
+    /* margin: 0 0 0 100px;
+    position: absolute; */
+}
+
+.wpp img {
+    width: 70px;
+}
+
+.tarjetas-logos {
+    /* border: 1px solid black; */
+    margin: 30px 20px 0 0;
+}
+
+.tarjetas-logos img {
+    width: 50px;
+}
+
+/* -------------------------------------- */
+/* LINK PANTALONES */
+
+#carhartt2 {
+    background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+    background-size: 100%;
+    height: 250px;
+    background-position: -20% 60%;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+
+nav {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.header-main-logo3 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+.header-main-logo3 img {
+    width: 150px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.checkout3 {
+    /* display: inline-block; */
+    float: right;
+    padding: 10px 40px;
+
+    position: relative;
+
+}
+
+.header-main-checkout5 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.header-main-checkout5 span {
+    font-size: 35px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.header-main-checkout6 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+.header-main-checkout6 span {
+    font-size: 35px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.check3 {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 0;
+}
+
+
+.pantalones {
+    position: absolute;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 70px 0 0 550px;
+    font-weight: bold;
+    font-family: 'Cambay', sans-serif;
+}
+
+.container-bar {
+    float: right;
+    margin: 20px 50px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+
+}
+
+h4 {
+    display: inline-block;
+    padding: 30px 100px 30px 300px;
+}
+
+.container-bar ul {
+    display: inline-block;
+    padding: 0;
+}
+
+
+.container-bar ul li {
+    margin: 0 0 10px 40px
+}
+
+.container-fullbar {
+    /* border: 1px solid #000000; */
+    width: 300px;
+    height: 800px;
+    margin: 150PX 0 1000px;
+    padding: 0;
+
+
+}
+
+.titulo-sidebar1 {
+    display: block;
+    padding: 0 0 10px 20px;
+}
+
+.titulo-sidebar2 {
+    display: block;
+    padding: 0 0 10px 20px;
+
+}
+
+.container-sidebar {
+    display: block;
+    margin: 0 0 50px -180px;
+    padding: 0;
+
+
+}
+
+.container-sidebar ul {
+    display: block;
+}
+
+.container-sidebar ul li {
+    display: block;
+}
+
+.container-sidebar ul li ul {
+    display: inline-block;
+
+}
+
+.container-sidebar2 {
+    display: block;
+    margin: 0 0 50px -180px;
+    padding: 0;
+}
+
+.container-sidebar2 ul {
+    display: block;
+}
+
+.container-sidebar2 ul li {
+    display: block;
+}
+
+.pant-cards {
+    /* border: 1px solid black; */
+    width: 1200px;
+    float: right;
+    margin: 70px 0 0 10px;
+}
+
+
+
+
+/* -------------------------------------- */
+/* LINK T-SHIRTS */
+
+#carhartt3 {
+    background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+    background-size: 100%;
+    height: 250px;
+    background-position: -20% 60%;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+
+nav {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.header-main-logo2 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+.header-main-logo2 img {
+    width: 150px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.checkout2 {
+    /* display: inline-block; */
+    float: right;
+    padding: 10px 40px;
+
+    position: relative;
+
+}
+
+.header-main-checkout3 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.header-main-checkout3 span {
+    font-size: 35px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.header-main-checkout4 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+.header-main-checkout4 span {
+    font-size: 35px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.check2 {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 0;
+}
+
+
+.tshirt {
+    position: absolute;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 70px 0 0 600px;
+    font-weight: bold;
+    font-family: 'Cambay', sans-serif;
+}
+
+.container-bar {
+    float: right;
+    margin: 20px 50px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+
+}
+
+h4 {
+    display: inline-block;
+    padding: 30px 100px 30px 300px;
+}
+
+.container-bar ul {
+    display: inline-block;
+    padding: 0;
+}
+
+
+.container-bar ul li {
+    margin: 0 0 10px 40px
+}
+
+.container-fullbar {
+    /* border: 1px solid #000000; */
+    width: 300px;
+    height: 800px;
+    margin: 150PX 0 1000px;
+    padding: 0;
+
+
+}
+
+.titulo-sidebar1 {
+    display: block;
+    padding: 0 0 10px 20px;
+}
+
+.titulo-sidebar2 {
+    display: block;
+    padding: 0 0 10px 20px;
+
+}
+
+.container-sidebar {
+    display: block;
+    margin: 0 0 50px -180px;
+    padding: 0;
+
+
+}
+
+.container-sidebar ul {
+    display: block;
+}
+
+.container-sidebar ul li {
+    display: block;
+}
+
+.container-sidebar ul li ul {
+    display: inline-block;
+
+}
+
+.container-sidebar2 {
+    display: block;
+    margin: 0 0 50px -180px;
+    padding: 0;
+}
+
+.container-sidebar2 ul {
+    display: block;
+}
+
+.container-sidebar2 ul li {
+    display: block;
+}
+
+.tshirt-cards {
+    /* border: 1px solid black; */
+    width: 1200px;
+    float: right;
+    margin: 70px 0 0 30px;
+
+
+}
+
+/* -------------------------------------- */
+/* LINK ABRIGOS */
+
+nav {
+
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.header-main-logo4 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+.header-main-logo4 img {
+    width: 150px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.checkout4 {
+    /* display: inline-block; */
+    float: right;
+    padding: 10px 40px;
+
+    position: relative;
+
+}
+
+.header-main-checkout7 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.header-main-checkout7 span {
+    font-size: 35px;
+    vertical-align: middle;
+    position: relative;
+
+}
+
+.header-main-checkout8 {
+    display: inline-block;
+    width: 1.5rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+.header-main-checkout8 span {
+    font-size: 35px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.check4 {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 0;
+}
+
+.abrigos {
+    position: absolute;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 70px 0 0 600px;
+    font-weight: bold;
+    font-family: 'Cambay', sans-serif;
+}
+
+.container-filtrar {
+    display: block;
+    margin: 20px 0 -100px 20px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.container-filtrar h4 {
+    display: inline-block;
+    padding: 30px 10px 0 0;
+    margin: 0 15px 0 5px;
+}
+
+.rectangle {
+    height: 5px;
+    width: 250px;
+    background-color: #000000;
+}
+
+.button2 {
+    display: inline-block;
+}
+
+/* -------------------------------------- */
+/* LINK REWORK */
+
+#carhartt-rework {
+    background-image: url(../vintage/rework/rework\ banner.jpg);
+    background-size: 125%;
+    height: 800px;
+    background-position: 46% 73%;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+    /* opacity: 0.8; */
+}
+
+#carhartt-rework h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: block;
+    padding: 150px 0 0 0;
+    margin: 0 0 -70px;
+    font-size: 200px;
+    color: white;
+}
+
+#carhartt-rework p {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 500px 0 500px;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.container-rework {
+    display: inline-block;
+}
+
+
+.container-rework img {
+    width: 50%;
+    float: right;
+    margin: 70px 50px;
+    /* border: 1px solid black; */
+}
+
+.texto-rework1 {
+    padding: 150px 0 0 100px;
+    margin: 0 0 0 100px;
+    /* border: 1px solid black; */
+}
+
+.texto-rework1 h2 {
+    font-size: 25px;
+    float: left;
+    font-weight: bold;
+    color: rgb(50, 13, 13);
+}
+
+.texto-rework1 p {
+    font-size: 25px;
+    padding-top: 100px;
+    color: rgb(56, 44, 44);
+}
+
+.container-rework2 {
+    display: inline-block;
+}
+
+
+.container-rework2 img {
+    width: 50%;
+    float: left;
+    margin: 70px 50px;
+    /* border: 1px solid black; */
+}
+
+.texto-rework2 {
+    padding: 150px 0 0 100px;
+    margin: 0 100px 0 100px;
+    /* border: 1px solid black; */
+}
+
+.texto-rework2 h2 {
+    font-size: 25px;
+    float: right;
+    font-weight: bold;
+    color: rgb(50, 13, 13);
+}
+
+.texto-rework2 p {
+    font-size: 25px;
+    padding-top: 100px;
+    color: rgb(56, 44, 44);
+}
+
+/* ----------------------------------
+
+FORMULARIO */
+
+.background {
+    width: 100%;
+    background-image: url(../vintage/Pantalones/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+
+}
+
+form {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0 0 500px;
+    /* background-color: #272727; */
+
+}
+
+h2 {
+    text-align: start;
+    margin: 0 0 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Cambay', sans-serif;
+    font-weight: 700;
+
+}
+
+form input {
+    width: 50%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(189, 252, 186);
+
+
+
+}
+
+form input::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: 'Cambay', sans-serif;
+    font-weight: 100;
+
+}
+
+form textarea {
+    width: 50%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    /* border-bottom: 4px solid black; */
+}
+
+form textarea::placeholder {
+    color: rgb(255, 254, 254);
+}
+
+form #enviar {
+    background-color: rgb(255, 255, 255);
+
+    font-size: 25px;
+    /* border: 4px solid black; */
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* ------------------------------------------ */
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 1366px) and (min-width: 896px) {
+
+    #carhartt {
+        background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+        background-size: 110%;
+        /* padding-bottom: 10rem; */
+        border: 1px solid black;
+        background-repeat: no-repeat;
+    }
+
+    #carhartt h1 {
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 0 0 0;
+        margin: 0 0 -70px;
+        font-size: 200px;
+        color: white;
+    }
+
+    #carhartt p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 700px;
+        /* border: 1px solid black; */
+        position: relative;
+        margin: 0 auto;
+        color: white;
+        font-size: 20px;
+
+
+    }
+
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 20px; */
+        width: 70%;
+        /* padding: 0 auto; */
+        margin: 0 auto;
+    }
+
+    .card {
+        display: flex;
+        /* border: 1px solid black; */
+        justify-content: center;
+        width: 70%;
+        padding: 20px;
+    }
+
+    .lista-full {
+        display: flex;
+        align-items: end;
+        margin: 0;
+    }
+
+    .lista-full2 {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        border: 1px solid #000;
+        width: 50%;
+
+        margin: 0;
+    }
+
+    .container-inline {
+        display: flex;
+        flex-direction: row;
+        margin: 200px 0 0 20px;
+    }
+
+    .container-footer {
+        display: flex;
+    }
+
+    .tarjetas-logos {
+        /* border: 1px solid black; */
+        margin: 30px 20px 0 10px;
+    }
+
+    .navbar {
+        display: flex;
+        height: 48px;
+
+        position: relative;
+        margin: 10px 0 0 20px;
+
+    }
+
+    .navbar-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+
+    }
+
+    .navbar-icons {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 0 0 0 20px;
+
+    }
+
+    .checkbox,
+    .icons {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        /* margin: 0 0 0 40px; */
+        /* top: 10px;
+     right: 10px; */
+
+    }
+
+    .icons {
+        pointer-events: none;
+        font-size: 30px;
+    }
+
+    .checkbox {
+        opacity: 0;
+    }
+
+    .fa-x {
+        display: none;
+    }
+
+    .checkbox:checked~.fa-bars {
+        display: none;
+    }
+
+    .checkbox:checked~.fa-x {
+        display: block;
+    }
+
+    .navbar-links {
+        width: 200px;
+        position: absolute;
+        margin-top: 250px;
+        border: rgba(0, 0, 0, 0.255);
+        display: none;
+        /* transition: 250ms; */
+
+    }
+
+    .navbar-links li a {
+        padding: 10px 12px;
+        background-color: rgba(0, 0, 0, 0.332);
+        display: block;
+    }
+
+    .checkbox:checked~.navbar-links {
+        display: block;
+    }
+
+    .footer-map {
+        width: 30%;
+        margin: 0 auto;
+        background-color: rgb(153, 115, 65);
+        position: relative;
+
+    }
+
+    .footer-map h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+
+
+    }
+
+    .footer-map h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: black;
+    }
+
+}
+
+@media only screen and (max-width: 895px) and (min-width: 411px) {
+
+    /* header{
+    width: 100%;
+    height: 600px;
+} */
+
+    #carhartt {
+        background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+        background-size: 230%;
+        width: 100%;
+        height: 650px;
+
+        /* padding-bottom: 10rem; */
+        border: 1px solid black;
+        background-repeat: no-repeat;
+
+    }
+
+    #carhartt h1 {
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0 0 0;
+        margin: 0 0 -70px;
+        font-size: 100px;
+        color: white;
+    }
+
+    #carhartt p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        margin: 0 auto;
+        padding: 20px;
+        color: white;
+        font-size: 12px;
+
+
+    }
+
+    .button {
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        display: flex;
+        margin: 20px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+        width: 300px;
+        border-radius: 30px;
+
+    }
+
+    .navbar-logo img {
+        margin: 0 0 0 30px;
+        width: 100px;
+    }
+
+    .navbar {
+        display: flex;
+        height: 48px;
+
+        position: relative;
+        margin: 10px 0 0 20px;
+
+    }
+
+    .navbar-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+
+    }
+
+    .navbar-icons {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 0 0 0 20px;
+
+    }
+
+    .navbar-icons span {
+        font-size: 20px;
+    }
+
+    .checkbox,
+    .icons {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        /* margin: 0 0 0 40px; */
+        /* top: 10px;
+     right: 10px; */
+
+    }
+
+    .icons {
+        pointer-events: none;
+        font-size: 20px;
+    }
+
+    .checkbox {
+        opacity: 0;
+    }
+
+    .fa-x {
+        display: none;
+    }
+
+    .checkbox:checked~.fa-bars {
+        display: none;
+    }
+
+    .checkbox:checked~.fa-x {
+        display: block;
+    }
+
+    .navbar-links {
+        width: 200px;
+        position: absolute;
+        margin-top: 250px;
+        border: rgba(0, 0, 0, 0.255);
+        display: none;
+        /* transition: 250ms; */
+
+    }
+
+    .navbar-links li a {
+        padding: 10px 12px;
+        background-color: rgba(0, 0, 0, 0.332);
+        display: block;
+    }
+
+    .checkbox:checked~.navbar-links {
+        display: block;
+    }
+
+    .container-2 {
+        display: none;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 20px; */
+        width: 70%;
+        /* padding: 0 auto; */
+        margin: 0 auto;
+        padding: 0 0 20px;
+    }
+
+    .card {
+        display: flex;
+        /* border: 1px solid black; */
+        justify-content: center;
+        width: 70%;
+        padding: 20px;
+    }
+
+.footer-map{
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgb(153, 115, 65);
+    
+}
+
+.footer-map h3{
+    font-size: 14px;
+}
+
+.footer-map h2{
+    font-size: 20px;
+}
+
+    .contenedor-redes span{
+        font-size: 20px;
+    }
+   
+
+    .lista-full2 {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        border: 1px solid #000;
+        width: 40%;
+        margin: 0 auto;
+        padding: 0 0 0 10px;
+    }
+
+    .lista-empresa {
+        padding: 0 0 55px;
+    }
+
+    .lista-empresa h2{
+        font-size: 20px;
+       
+        
+    }
+
+    .lista-empresa ul {
+        width: 40px;
+        margin: 0 auto;
+
+    }
+
+    .lista-empresa ul li{
+font-size: 14px;
+    }
+
+.lista-compra h2{
+    font-size: 20px;
+}
+
+    .lista-compra ul {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .lista-compra ul li{
+        font-size: 14px;
+    }
+
+
+    .container-inline {
+        display: flex;
+        flex-direction: row;
+        margin: 200px 0 0 20px;
+        width: 100%;
+    }
+
+    .container-footer {
+        display: flex;
+    }
+
+    .container-footer p{
+        font-size: 14px;
+    }
+
+ .lista-full {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        margin: 0;
+        width: 30%;
+
+    }
+
+    .tarjetas-logos {
+        /* border: 1px solid black; */
+        margin: 30px 20px 0 10px;
+        
+    }
+
+    .tarjetas-logos img {
+        width: 30px;
+    }
+
+
+}

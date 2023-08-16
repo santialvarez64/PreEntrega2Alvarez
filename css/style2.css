@@ -1,0 +1,4248 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Special+Elite&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cambay', sans-serif;
+}
+
+
+
+header {
+    /* background-color: aqua; */
+    top: 0;
+    width: 100%;
+}
+
+#carhartt {
+    background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+    background-size: 280%;
+    width: 100%;
+    height: 610px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    height: 48px;
+    position: relative;
+    margin: 0;
+
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* padding: 0 0 0 50px; */
+
+
+}
+
+.navbar-logo img {
+    width: 70%;
+}
+
+.navbar-icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+   margin: 0 10px;
+    padding: 0;
+    /* margin: 0 0 0 20px; */
+
+}
+
+.navbar-icons span {
+    font-size: 15px;
+    color: white;
+
+}
+
+.checkbox,
+.icons {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 15px 0 0 15px;
+    color: white;
+    /* top: 10px;
+ right: 10px; */
+
+}
+
+.icons {
+    pointer-events: none;
+    font-size: 20px;
+}
+
+.checkbox {
+    opacity: 0;
+}
+
+.fa-x {
+    display: none;
+}
+
+.checkbox:checked~.fa-bars {
+    display: none;
+}
+
+.checkbox:checked~.fa-x {
+    display: block;
+}
+
+.navbar-links {
+    width: 150px;
+    position: absolute;
+    margin: 40px;
+    border: rgba(0, 0, 0, 0.255);
+    display: none;
+    /* transition: 250ms; */
+
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+
+.navbar-links li a {
+    /* background-color: rgba(0, 0, 0, 0.332); */
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.checkbox:checked~.navbar-links {
+    display: block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0 0 0 110px;
+    padding: 0;
+    background-color: #000000a1;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#carhartt h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin: 280px 0 20px 0;
+    height: 70px;
+    font-size: 80px;
+    color: white;
+}
+
+#carhartt p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+    width: 80%;
+
+
+}
+
+.explorar-prendas {
+    padding: 30px;
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 0 auto;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 200px;
+    border-radius: 30px;
+
+}
+
+.button span {
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #3d3d3dc0;
+}
+
+/* CONTAINER-3 */
+
+#back1 {
+    background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: -120% 5%;
+
+}
+
+.container-2{
+    width: 100%;
+
+}
+
+.container-1 {
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    padding: 0;
+    
+    
+}
+
+.card-content {
+    flex: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #000000; */
+    width: 50%;
+}
+
+.card-content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 10px;
+
+
+}
+
+.card-content p {
+    text-align: center;
+    margin: 0 auto;
+
+    font-size: 12px;
+}
+
+.card-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    /* border-radius: 4px; */
+
+}
+
+.container-3 {
+    display: none;
+}
+
+.container-4 {
+    display: none;
+}
+
+/* CARDS */
+
+.container-titulos {
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+
+}
+
+.titulo1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.subtitulo1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 148, 42);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+
+
+}
+
+.product-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 2px groove #0000007f;
+    border-radius: 5px;
+    margin: 60px;
+    padding: 0;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(223, 219, 219, 0.1);
+}
+
+
+
+.dot {
+    width: 40px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 190px 0 10px;
+    color: white;
+    font-size: 27px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h2 {
+    margin: 20px 15px 5px 15px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+
+.product-card .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(42, 148, 42);
+}
+
+.button-carrito{
+    background: rgb(225, 225, 225);
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 20px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 200px;
+    border-radius: 30px;
+}
+
+.button-carrito:hover{
+    background-color: rgba(8, 255, 8, 0.377);
+}
+
+/* CARDS OFERTAS */
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    color: #000;
+}
+
+.ofertas-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* COMO TRABAJAMOS */
+
+.comotra-container {
+    margin: 0 auto;
+}
+
+.titulo3 {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 ; */
+}
+
+.subtitulo2 {
+    color: rgb(42, 148, 42);
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+}
+
+.trabajo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    width: 70%;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    width: 100%;
+    /* padding: 0 auto; */
+    margin: 0 auto;
+    padding: 0 0 20px;
+}
+
+    
+.carousel2, .carouselExampleIndicators, .carousel.slide, .pointer-event{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width:100%;
+    padding: 10px 0 20px;
+    height: 230px;
+    
+    
+ }
+
+.card-comotra {
+width: 50%;
+margin: 0 auto;
+position: absolute;
+top: 50%;
+transform: translate(50%, 30%);
+padding: 0;
+}
+
+.card-icon {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+  
+
+}
+
+.card-content2 {
+    flex: 1;
+    margin: 0 auto;
+}
+
+.card-content2 p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+.card-content2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+
+
+}
+
+
+/* FOOTER */
+
+footer {
+
+    min-height: 20vh;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.footer-map {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(153, 115, 65);
+
+
+
+}
+
+.footer-map h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+
+}
+
+.footer-map h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+    font-size: 12px;
+}
+
+
+/* <!-- LOGO FOOTER Y REDES SOCIALES --> */
+
+.container-footer {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-footer img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+.container-footer p {
+    display: block;
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor-redes {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* <!-- LISTA FOOTER --> */
+
+.lista-full2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.lista-empresa{
+    display: block;
+    text-align: center;
+    
+}
+
+.lista-empresa h2{
+    font-size: 20px;
+
+}
+
+.lista-empresa ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.lista-empresa ul li{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.lista-empresa ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista-compra{
+    display: block;
+    text-align: center;
+    
+}
+
+.lista-compra h2{
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 15px 0 0 40px;
+}
+
+.lista-compra ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 0 50px;
+}
+
+.lista-compra ul li{
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* <!-- LOGOS TARJETAS FOOTERS --> */
+
+.lista-full {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.wpp {
+    display: none;
+}
+
+.tarjetas-logos {
+ margin: 20px;
+
+}
+
+.tarjetas-logos img {
+    width: 8%;
+}
+
+/* -------------------------------------- */
+/* EMPIEZA LINK T-SHIRTS */
+
+#carhartt3 {
+    background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+    background-size: 100%;
+    height: 150px;
+    /* background-position: -20% 60%; */
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+
+.navbar2 {
+    display: flex;
+    height: 48px;
+    position: relative;
+    margin: 0;
+
+}
+
+.navbar-logo2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0 0 70px;
+
+
+}
+
+.navbar-logo2 img {
+    width: 80%;
+}
+
+.navbar-icons2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+   
+    padding: 10px 10px 0 0;
+   
+
+}
+
+.navbar-icons2 span {
+    font-size: 16px;
+    color: white;
+
+}
+
+.checkbox,
+.icons {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 15px 0 0 15px;
+    color: white;
+    /* top: 10px;
+ right: 10px; */
+
+}
+
+.icons {
+    pointer-events: none;
+    font-size: 20px;
+}
+
+.checkbox {
+    opacity: 0;
+}
+
+.fa-x {
+    display: none;
+}
+
+.checkbox:checked~.fa-bars {
+    display: none;
+}
+
+.checkbox:checked~.fa-x {
+    display: block;
+}
+
+.navbar-links2 {
+    width: 150px;
+    position: absolute;
+    margin: 20px 0 0 45px ;
+    border: rgba(0, 0, 0, 0.255);
+    display: none;
+    /* transition: 250ms; */
+
+}
+
+.navbar-links2 li {
+    list-style: none;
+}
+
+
+.navbar-links2 li a {
+    /* background-color: rgba(0, 0, 0, 0.332); */
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    font-size: 12px;
+}
+
+.checkbox:checked~.navbar-links2 {
+    display: block;
+}
+
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    margin: -15px 0 0 80px;
+    padding: 0;
+    background-color: #000000a1;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.main-title h2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    height: 30px;
+    color: white;
+   font-size: 20px;
+    padding: 5px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.card-container2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin: 0 auto;
+    padding: 20px 0 0 0 ;
+    width: 80%;
+
+
+
+}
+
+.container-bar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 20px 0 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.574);
+}
+
+.container-bar h4{
+   font-size: 14px;
+}
+
+.container-bar ul{
+    display: none;
+    
+}
+
+.container-bar2{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    margin: 25px 0 0 0;
+    
+}
+
+.container-bar2 .left{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+    gap: 5px;
+
+}
+
+.container-bar2 .left i{
+margin: 2px 0 0 0;
+}
+
+.container-bar2 .left h4{
+    font-size: 14px;
+    }
+
+.container-bar2 .right{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+   width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.container-bar2 .right i{
+    rotate: 90deg;
+}
+
+.container-filtrar{
+    display: none;
+}
+
+.container-fullbar{
+    display: none;
+}
+
+/* TERMINA SECCIÓN T-SHIRTS */
+
+/* ------------------------------------------- */
+
+/* EMPIEZA SECCIÓN REWORK */
+
+#carhartt-rework {
+    background-image: url(../vintage/rework/rework\ banner.jpg);
+    background-size: 400%;
+    width: 100%;
+    height: 750px;
+    background-position: 60% 80%;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+
+#carhartt-rework h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin: 200px 0 10px 0;
+    height: 65px;
+    font-size: 60px;
+    color: white;
+}
+
+#carhartt-rework p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+    width: 60%;
+
+
+}
+
+.container-rework{
+    display: flex;
+}
+
+.container-rework img{
+    display: none;
+}
+
+.container-rework, .texto-rework1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.container-rework, .texto-rework1 h2{
+   text-align: center;
+   color: rgb(60, 4, 4);
+   font-size: 26px;
+}
+
+.container-rework, .texto-rework1 p{
+    text-align: center;
+    color: rgb(73, 46, 46);
+    font-size: 14px;
+    margin: 10px 30px 0 30px;
+ }
+ 
+
+
+.container-rework2{
+    display: none;
+}
+
+.container-rework2 img{
+    display: none;
+}
+.container-rework2, .texto-rework2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.container-rework2, .texto-rework2 h2{
+   text-align: center;
+   color: rgb(60, 4, 4);
+   font-size: 26px;
+}
+
+.container-rework2, .texto-rework2 p{
+    text-align: center;
+    color: rgb(73, 46, 46);
+    font-size: 14px;
+    margin: 10px 30px 0 30px;
+ }
+
+.container-rework, .texto-rework3 h2{
+    font-size: 20px;
+    color: rgb(96, 21, 21);
+    margin: 60px 0 0 0;
+    text-align: center;
+}
+
+
+.container-rework, .texto-rework3 p{
+    font-size: 14px;
+    color: rgb(106, 63, 63);
+    margin: 10px 30px 30px 30px;
+    
+}
+
+
+
+
+/* TERMINA SECCIÓN REWORK */
+
+/* ------------------------------------------- */
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    
+    #carhartt {
+        background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+        background-size: 150%;
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid black; */
+        background-repeat: no-repeat;
+    }
+
+    #carhartt h1 {
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0 0 0;
+        margin: 280px 0 20px 0;
+        height: 80px;
+        font-size: 100px;
+        color: white;
+    }
+    
+    #carhartt p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        margin: 0 auto;
+        color: white;
+        font-size: 14px;
+        width: 80%;
+    
+    
+    }
+    
+
+    .navbar-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      padding: 10px 0 0 20px;
+      /* width: 100%; */
+        /* border: 1px solid black; */
+    
+    
+    }
+    
+    .navbar-logo img {
+        width: 80%;
+    }
+    
+    .navbar-icons {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 5px;
+        margin: 0 10px;
+        padding: 0;
+        /* margin: 0 0 0 20px; */
+    
+    }
+    
+    .navbar-icons span {
+        font-size: 20px;
+        color: white;
+    
+    }
+    
+    #back1 {
+        background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: -120% 5%;
+    
+    }
+
+    #back2 {
+        background-image: url(../vintage/abrigos/hoodie.webp);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -200% 10%;
+    }
+
+    #back3 {
+        background-image: url(../vintage/Pantalones/capenter.jpg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -300% 10%;
+    }
+    
+    
+    .container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: row; */
+        /* width: 100%; */
+    }
+    
+    .container-1 {
+        display: flex;
+        width: 50%;
+        margin: 10px;
+        padding: 0;
+        
+        
+    }
+    
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin: 0 auto;
+        
+        padding: 0;
+        /* border: 1px solid #000000; */
+        width: 50%;
+    }
+    
+    .card-content h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 10px;
+    
+    
+    }
+    
+    .card-content p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    
+        font-size: 12px;
+    }
+    
+    .card-content a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      margin: 0 auto;
+      padding: 10px;
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        /* border-radius: 4px; */
+    
+    }
+    
+    .container-3 {
+        display: flex;
+        
+        width: 50%;
+        margin: 10px;
+        padding: 0
+    }
+    
+    .container-4 {
+        display: none;
+    }
+    
+    
+    .comotra-container {
+        margin: 0 auto;
+    }
+    
+    .titulo3 {
+        color: #000;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 ; */
+    }
+    
+    .subtitulo2 {
+        color: rgb(42, 148, 42);
+        display: flex;
+        justify-content: center;
+        /* margin: 0; */
+    }
+    
+    .trabajo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+   
+    
+    .carousel2, .carouselExampleIndicators, .carousel.slide, .pointer-event{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width:100%;
+        padding: 10px 0 20px;
+        height: 230px;
+        
+        
+     }
+    
+    .card-comotra {
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, 30%);
+    padding: 0;
+    }
+    
+    .card-icon {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        
+      
+    
+    }
+    
+    .card-content2 {
+        flex: 1;
+        margin: 0 auto;
+    }
+    
+    .card-content2 p {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    
+    .card-content2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+    
+    
+    }
+    
+    
+ 
+    
+   
+   
+
+    .lista-full{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        /* border: 1px solid black; */
+        width: 70%;
+    }
+
+    /* ------------------------------------------- */
+
+/* EMPIEZA QUERIES REWORK */
+
+#carhartt-rework {
+    background-image: url(../vintage/rework/rework\ banner.jpg);
+    background-size: 175%;
+    width: 100%;
+    height: 690px;
+    background-position: 60% 85%;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+
+#carhartt-rework h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin: 150px 0 10px 0;
+    height: 70px;
+    font-size: 70px;
+    color: white;
+}
+
+#carhartt-rework p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+    width: 40%;
+
+
+}
+
+.carousel{
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+}
+
+/* .container-rework{
+    display: flex;
+    flex-direction: column;
+     margin: 0px 20px 0 20px;
+ }
+  */
+ .container-rework img{
+     display: none;
+   
+ }
+ 
+  .container-rework2 img{
+     display: none; 
+ }
+ .container-rework3 img{
+     display: none;
+    
+ }
+
+ 
+ .texto-rework1 h2{
+     font-size: 20px;
+     color: rgb(96, 21, 21);
+     text-align: center;
+ }
+ 
+ .texto-rework1 p{
+     font-size: 14px;
+     color: rgb(106, 63, 63);
+     margin: 10px 30px 0 30px;
+ }
+ 
+ .texto-rework2{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ 
+ .texto-rework2 h2{
+     font-size: 20px;
+     color: rgb(96, 21, 21);
+     text-align: center;
+     margin:  30px 0 0 0;
+ }
+ 
+ 
+ .texto-rework2 p{
+     font-size: 14px;
+     color: rgb(106, 63, 63);
+     margin: 10px 30px 0 30px;
+ }
+ 
+ .texto-rework3 h2{
+     font-size: 20px;
+     color: rgb(96, 21, 21);
+     margin: 60px 0 0 0;
+     text-align: center;
+ }
+ 
+ 
+ .texto-rework3 p{
+     font-size: 14px;
+     color: rgb(106, 63, 63);
+     margin: 10px 30px 30px 30px;
+     
+ }
+
+/* TERMINA QUERIES REWORK */
+
+/* ------------------------------------------- */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    
+/* EMPIEZA QUERIES INDEX */
+
+    #carhartt {
+        background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+        background-size: 150%;
+        width: 100%;
+        height: 610px;
+        /* border: 1px solid black; */
+        background-repeat: no-repeat;
+    }
+
+    #carhartt h1 {
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0 0 0;
+        margin: 280px 0 20px 0;
+        height: 80px;
+        font-size: 100px;
+        color: white;
+    }
+    
+    #carhartt p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        margin: 0 auto;
+        color: white;
+        font-size: 14px;
+        width: 60%;
+    
+    
+    }
+
+    .navbar-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 15px 0 0 0;
+    
+    
+    }
+    
+    .navbar-logo img {
+        width: 100%;
+    }
+    
+    .navbar-icons {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 5px;
+       margin: 10px 15px;
+        padding: 10px 0 0 0;
+        /* margin: 0 0 0 20px; */
+    
+    }
+    
+    .navbar-icons span {
+        font-size: 25px;
+        color: white;
+    
+    }
+    
+
+    .checkbox,
+    .icons {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        margin: 15px 0 0 15px;
+        color: white;
+        /* top: 10px;
+     right: 10px; */
+    
+    }
+    
+    .icons {
+        pointer-events: none;
+        font-size: 30px;
+    }
+    .fa-x {
+        display: none;
+    }
+
+    #back1 {
+        background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: -120% 5%;
+    
+    }
+
+    #back2 {
+        background-image: url(../vintage/abrigos/hoodie.webp);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -200% 10%;
+    }
+
+    #back3 {
+        background-image: url(../vintage/Pantalones/capenter.jpg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -300% 10%;
+    }
+    
+    
+    .container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: row; */
+        /* width: 100%; */
+    }
+    
+    .container-1 {
+        display: flex;
+        width: 50%;
+        margin: 10px;
+        padding: 0;
+        
+        
+    }
+    
+    .card-content {
+        display: flex;
+        flex: 1;
+        margin: 0 auto;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid #000000; */
+        width: 50%;
+    }
+    
+    .card-content h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 10px;
+    
+    
+    }
+    
+    .card-content p {
+        text-align: center;
+        margin: 0 auto;
+    
+        font-size: 12px
+    }
+    
+    .card-content a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        /* border-radius: 4px; */
+    
+    }
+    
+    .container-3 {
+        display: flex;
+        
+        width: 50%;
+        margin: 10px;
+        padding: 0
+    }
+    
+
+    
+    .comotra-container {
+        margin: 0 auto;
+    }
+    
+    .titulo3 {
+        color: #000;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 ; */
+    }
+    
+    .subtitulo2 {
+        color: rgb(42, 148, 42);
+        display: flex;
+        justify-content: center;
+        /* margin: 0; */
+    }
+    
+    .trabajo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    /* .carousel2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+        padding: 30px 30px 0 0;
+        
+    }
+    
+    .carousel2, .carouselExampleIndicators{
+       margin: 0;
+       width:100%;
+       
+    } */
+    
+    .carousel2, .carouselExampleIndicators, .carousel.slide, .pointer-event{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width:80%;
+        padding: 10px 0 20px;
+        height: 230px;
+        
+        
+     }
+
+    .card-comotra {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, 30%);
+  padding: 0;
+    }
+    
+    .card-icon {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        
+      
+    
+    }
+    
+    .card-content2 {
+        flex: 1;
+        margin: 0 auto;
+    }
+    
+    .card-content2 p {
+        text-align: center;
+        margin: 0 auto;
+    
+        font-size: 12px;
+    }
+    
+    .card-content2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 10px;
+    
+    
+    }
+   
+
+   
+
+/* TERMINA QUERIES INDEX */
+
+    /* -------------------------------------- */
+
+/* EMPIEZA QUERIES T-SHIRTS */
+
+.navbar-links2 {
+    width: 150px;
+    position: absolute;
+    margin: 10px 0 0 50px ;
+    border: rgba(0, 0, 0, 0.255);
+    display: none;
+    /* transition: 250ms; */
+
+}
+
+.navbar-links2 li {
+    list-style: none;
+    padding: 5px 0 0 0;
+}
+
+.navbar-icons2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+   
+    padding: 10px 10px 0 0;
+   
+
+}
+
+.navbar-icons2 span {
+    font-size: 20px;
+    color: white;
+
+}
+
+.navbar-logo2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 10px 0 0 90px;
+
+
+}
+
+.navbar-logo2 img {
+    width: 90%;
+}
+
+
+
+.main-title h2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    height: 30px;
+    color: white;
+   font-size: 25px;
+    padding: 0;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+.container-bar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 20px 0 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.574);
+}
+
+.container-bar-left{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container-bar-left h4{
+   font-size: 12px;
+   padding: 10px 20px;
+}
+
+.container-bar-right{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 150%;
+    /* padding: 0 0 0 10px; */
+}
+
+
+.container-bar-right ul{
+    display: flex;
+    gap: 0;
+    margin: 0 auto;
+    
+}
+
+.container-bar-right ul li{
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+
+}
+
+.container-bar-right ul li h2{
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+}
+
+.container-bar-right ul li span{
+    
+    font-size: 10px;
+    margin: 2px 0 0 0;
+    
+}
+
+.card-container2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin: 0 auto;
+    padding: 20px 0 0 0 ;
+    width: 80%;
+
+
+
+}
+
+
+
+.container-bar2{
+    display: none;
+}
+
+.rectangle {
+   /* border: 1px solid black; */
+    display: flex;
+   justify-content: center;
+   margin: 10px 0 0 10px ;
+   padding: 0;
+    height: 5px;
+    width: 160px;
+    background-color: #000000;
+}
+
+.container-e{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
+.bar-left{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    width: 30%;
+    
+}
+
+.container-filtrar{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 100%;
+    
+}
+
+.container-filtrar1{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.container-filtrar1 h4{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 10px 0 0 10px;
+    font-size: 12px;
+}
+
+.container-filtrar2{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.container-filtrar2 span button{
+   border: 1px solid black;
+    display: flex;
+    justify-content: center;
+margin: 10px 0 10px ;
+    padding: 0;
+    font-size: 12px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 60px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+.container-filtrar2 span button:hover{
+    background-color: rgba(0, 128, 0, 0.363);
+    cursor: pointer;
+}
+
+ 
+
+.container-fullbar{
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+.titulo-sidebar1{
+    /* border: 1px solid black; */
+  border-top: 1px solid grey;
+   padding: 25px 0 0 10px ;
+   margin: 15px 0 0 0;
+    
+    
+}
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu, .right-menu{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+    /* border-bottom: 1px solid black; */
+}
+
+
+.button3 {
+    background: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px 30px 26px 0;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.button3:hover {
+    background-color: #01ff0579;
+    cursor: pointer;
+}
+
+
+.estado{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-sidebar2{
+    border-top: 1px solid grey;
+   padding: 25px 0 0 10px ;
+   margin: 15px 0 10px 0;
+}
+
+.arriba, .abajo{
+    margin: 0 0 0 10px;
+
+}
+
+/* TERMINA QUERIES T-SHIRTS */
+
+/* -------------------------------------- */
+    
+/* EMPIEZA QUERIES PANTALONES */
+
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu2, .right-menu2{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* tERMINA QUERIES PANTALONES */
+
+/* -------------------------------------- */
+    
+/* EMPIEZA QUERIES ABRIGOS */
+
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu3, .right-menu3{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu3{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* tERMINA QUERIES ABRIGOS */
+
+/* -------------------------------------- */
+
+/* EMPIEZA QUERIES REWORK */
+
+#carhartt-rework {
+    background-image: url(../vintage/rework/rework\ banner.jpg);
+    background-size: 175%;
+    width: 100%;
+    height: 690px;
+    background-position: 60% 75%;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+
+#carhartt-rework h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin: 150px 0 10px 0;
+    height: 70px;
+    font-size: 80px;
+    color: white;
+}
+
+#carhartt-rework p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+    width: 40%;
+
+
+}
+
+.container-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carousel2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carousel3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel{
+    width: 100%;
+    height: 450px;
+    display: flex;
+   margin: 0 0 30px 30px;
+    /* border: 1px solid black; */
+ }
+ 
+ .container-rework{
+     display: flex;
+     /* border: 1px solid black; */
+     width: 100%;
+     margin: 10px;
+      
+  }
+
+  .container-rework2{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 10px;
+     
+  }
+  
+  .container-rework img{
+      display: none;
+    
+  }
+  
+   .container-rework2 img{
+      display: none; 
+  }
+  .container-rework3 img{
+      display: none;
+     
+  }
+ 
+  
+  .texto-rework1 h2{
+      font-size: 26px;
+      color: rgb(96, 21, 21);
+      text-align: center;
+  }
+  
+  .texto-rework1 p{
+      font-size: 14px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 0 30px;
+  }
+  
+  .texto-rework2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .texto-rework2 h2{
+      font-size: 20px;
+      color: rgb(96, 21, 21);
+      text-align: center;
+      margin:  30px 0 0 0;
+  }
+  
+  
+  .texto-rework2 p{
+      font-size: 14px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 0 30px;
+  }
+  
+  .texto-rework3 h2{
+      font-size: 20px;
+      color: rgb(96, 21, 21);
+      margin: 60px 0 0 0;
+      text-align: center;
+  }
+  
+  
+  .texto-rework3 p{
+      font-size: 14px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 30px 30px;
+      
+  }
+ 
+
+/* TERMINA QUERIES REWORK */
+
+/* ------------------------------------------- */
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+    /* EMPIEZA QUERIES INDEX */
+    
+    #carhartt {
+        /* border: 1px solid black; */background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+        background-size: 150%;
+        width: 100%;
+        height: 610px;
+        
+        background-repeat: no-repeat;
+    }
+
+    #carhartt h1 {
+        /* border: 1px solid black; */text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 0 0;
+        margin: 200px 0 20px 0;
+        height: 150px;
+        font-size: 150px;
+        color: white;
+    }
+    
+    #carhartt p {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        position: relative;
+        margin: 0 auto;
+        color: white;
+        font-size: 16px;
+        width: 60%;
+    
+    
+    }
+
+    .navbar{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 0 auto;
+        /* border: 1px solid black; */
+        width: 100%;
+    }
+
+    .navbar-logo{
+        display: flex;
+        justify-content: flex-start;
+        /* align-items: flex-start; */
+        margin: 0 ;
+        padding: 0 0 0 20px;
+        /* border: 1px solid black; */
+    }
+
+    .navbar-logo img{
+        width: 80%;
+    }
+
+    .navbar-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding:10px 0 0 0;
+        gap: 0px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .navbar-links li{
+      display: inline-block;
+      /* background-color: red; */
+        margin: 0 25px 0 0;
+        padding: 0;
+    }
+
+    .navbar-links li i{
+        /* border: 1px solid black; */
+        width: 20px;
+       display: inline-block;
+       margin: 5px;
+       padding: 0;
+       
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0 0 0 10px;
+        background-color:rgba(0, 0, 0, 0.441);
+        list-style: none;
+    }
+
+    .dropdown-content li{
+        border-bottom: 1px solid rgba(55, 208, 13, 0.405);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.405);
+
+    }
+
+    .navbar-icons{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+        padding: 0 20px;
+        width: 75%;
+        /* border: 1px solid black; */
+    }
+
+    .navbar-icons span{
+        font-size: 20px;
+    }
+
+  
+  .checkbox{
+    display: none;
+  }
+
+  .icons{
+    display: none;
+  }
+
+    #back1 {
+        background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -120% 5%;
+        width: 100%;
+        height: 222px;
+    
+    }
+
+    #back2 {
+        background-image: url(../vintage/abrigos/hoodie.webp);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -200% 10%;
+        width: 100%;
+        height: 222px;
+    }
+
+    #back3 {
+        /* border: 1px solid black; */background-image: url(../vintage/Pantalones/capenter.jpg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -300% 10%;
+        width: 100%;
+        height: 222px;
+        
+    }
+    
+    
+    .container-2{
+        /* border: 1px solid black; */display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        
+        /* flex-direction: row; */
+        width: 100%;
+    }
+    
+    .container-1 {
+        /* border: 1px solid black; */
+        display: flex;
+        width: 50%;
+        margin: 15px 0 0 5px;
+        padding: 0;
+        /*  */
+        
+        
+    }
+    
+    .container-3 {
+        display: flex;
+        width: 50%;
+        margin: 15px 0 0 5px;
+        padding: 0
+    }
+    
+    .container-4 {
+        /* border: 1px solid black; */display: flex;
+        width: 50%;
+        margin: 30px 0 0 5px;
+        padding: 0;
+        
+    
+    }
+    .card-content {
+        display: flex;
+        flex: 1;
+        margin: 0 auto;
+        flex-direction: column;
+       
+        padding: 0;
+        /* border: 1px solid #000000; */
+        width: 50%;
+    }
+    
+    .card-content h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+    
+    
+    }
+    
+    .card-content p {
+        text-align: center;
+        margin: 0 auto;
+    
+        font-size: 12px;
+    }
+    
+    .card-content a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        /* border-radius: 4px; */
+    
+    }
+    
+    
+    
+    
+    .comotra-container {
+        margin: 0 auto;
+    }
+    
+    .titulo3 {
+        color: #000;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 ; */
+    }
+    
+    .subtitulo2 {
+        color: rgb(42, 148, 42);
+        display: flex;
+        justify-content: center;
+        /* margin: 0; */
+    }
+    
+    .trabajo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+/* .carousel2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+        padding: 30px 30px 0 0;
+        
+    }
+    
+    .carousel2, .carouselExampleIndicators{
+       margin: 0;
+       width:100%;
+       
+    }  */
+    
+     .carousel2, .carouselExampleIndicators, .carousel.slide, .pointer-event{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width:80%;
+        padding: 10px 0 20px;
+        height: 230px;
+        
+        
+     }
+
+    .card-comotra {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, 30%);
+  padding: 0;
+    }
+    
+    .card-icon {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        
+      
+    
+    }
+    
+    .card-content2 {
+        flex: 1;
+        margin: 0 auto;
+    }
+    
+    .card-content2 p {
+        text-align: center;
+        margin: 0 auto;
+    
+        font-size: 12px;
+    }
+    
+    .card-content2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 10px;
+    
+    
+    }
+
+    
+    
+
+
+    .container-4{
+        display: flex;
+        width: 50%;
+        margin: 10px;
+        padding: 0;
+        height: 200px;
+    }
+
+    .footer-fot{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 10px 0 0 20px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .container-footer img{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container-footer p{
+        margin: 0;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .contenedor-redes{
+        margin: 0;
+        padding: 5px 0 0 10px;
+    }
+
+.contenedor-redes span{
+    font-size: 25px;
+}
+
+.lista-full2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    width: 100%;
+}
+
+.lista-full{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0 0 20px;
+    width: 100%;
+}
+
+.tarjetas-logos{
+    margin: 0 auto;
+    padding: 20px 0 0 10px;
+    width: 100%;
+}
+
+.wpp{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.wpp img{
+    width:20%;
+}
+
+/* TERMINA QUERIES INDEX */
+
+ /* -------------------------------------- */
+
+/* EMPIEZA QUERIES T-SHIRTS */
+
+.navbar2 {
+    display: flex;
+    height: 48px;
+    position: relative;
+    margin: 0;
+
+}
+
+.navbar-logo2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0 0 80px;
+
+
+}
+
+.navbar-logo2 img {
+    width: 100%;
+}
+
+.navbar-icons2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+   
+    padding: 10px 10px 0 0;
+   
+
+}
+
+.navbar-icons2 span {
+    font-size: 20px;
+    color: white;
+
+}
+
+.checkbox,
+.icons {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 0 15px;
+    color: white;
+    /* top: 10px;
+ right: 10px; */
+
+}
+
+.icons {
+    pointer-events: none;
+    font-size: 30px;
+}
+
+.checkbox {
+    opacity: 0;
+}
+
+.fa-x {
+    display: none;
+}
+
+.checkbox:checked~.fa-bars {
+    display: none;
+}
+
+.checkbox:checked~.fa-x {
+    display: block;
+}
+
+.navbar-links2 {
+    width: 150px;
+    position: absolute;
+    margin: 20px 0 0 45px ;
+    border: rgba(0, 0, 0, 0.255);
+    display: none;
+    /* transition: 250ms; */
+
+}
+
+.navbar-links2 li {
+    list-style: none;
+}
+
+
+.navbar-links2 li a {
+    /* background-color: rgba(0, 0, 0, 0.332); */
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    font-size: 12px;
+}
+
+.checkbox:checked~.navbar-links2 {
+    display: block;
+}
+
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    margin: -15px 0 0 80px;
+    padding: 0;
+    background-color: #000000a1;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-links2 {
+    width: 150px;
+    position: absolute;
+    margin: 10px 0 0 50px ;
+    border: rgba(0, 0, 0, 0.255);
+    display: none;
+    /* transition: 250ms; */
+
+}
+
+.navbar-links2 li {
+    list-style: none;
+    padding: 5px 0 0 0;
+}
+
+
+
+
+.navbar-logo2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 20px 0 0 90px;
+
+
+}
+
+
+.main-title{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.main-title h2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    height: 30px;
+    color: white;
+   font-size: 25px;
+    padding: 0;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container-bar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 20px 0 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.574);
+}
+
+.container-bar-left{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container-bar-left h4{
+   font-size: 14px;
+   padding: 10px 20px;
+}
+
+.container-bar-right{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 150%;
+    /* padding: 0 0 0 10px; */
+}
+
+
+.container-bar-right ul{
+    display: flex;
+    gap: 0;
+    margin: 0 auto;
+    
+}
+
+.container-bar-right ul li{
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+
+}
+
+.container-bar-right ul li h2{
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+}
+
+.container-bar-right ul li span{
+    
+    font-size: 14px;
+    margin: 2px 0 0 0;
+    
+}
+
+.card-container2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin: 0 auto;
+    padding: 20px 0 0 0 ;
+    width: 80%;
+
+
+
+}
+
+
+
+.container-bar2{
+    display: none;
+}
+
+.rectangle {
+   /* border: 1px solid black; */
+    display: flex;
+   justify-content: center;
+   margin: 10px 0 0 10px ;
+   padding: 0;
+    height: 5px;
+    width: 160px;
+    background-color: #000000;
+}
+
+.container-e{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
+.bar-left{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    width: 25%;
+    
+}
+
+.container-filtrar{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 100%;
+    
+}
+
+.container-filtrar1{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.container-filtrar1 h4{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+}
+
+.container-filtrar2{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.container-filtrar2 span button{
+   border: 1px solid black;
+    display: flex;
+    justify-content: center;
+margin: 10px 0 10px ;
+    padding: 0;
+    font-size: 12px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 60px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+.container-filtrar2 span button:hover{
+    background-color: rgba(0, 128, 0, 0.363);
+    cursor: pointer;
+}
+
+ 
+
+.container-fullbar{
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+.titulo-sidebar1{
+    /* border: 1px solid black; */
+  border-top: 1px solid grey;
+   padding: 25px 0 0 10px ;
+   margin: 15px 0 0 0;
+    
+    
+}
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu, .right-menu{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+    /* border-bottom: 1px solid black; */
+}
+
+
+.button3 {
+    background: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px 30px 26px 0;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    
+
+}
+
+.button3:hover {
+    background-color: #01ff0579;
+    cursor: pointer;
+}
+
+
+.estado{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-sidebar2{
+    border-top: 1px solid grey;
+   padding: 25px 0 0 10px ;
+   margin: 15px 0 10px 0;
+}
+
+.arriba, .abajo{
+    margin: 0 0 0 10px;
+
+}
+
+/* TERMINA QUERIES T-SHIRTS */
+
+/* -------------------------------------- */
+    
+/* EMPIEZA QUERIES PANTALONES */
+
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu2, .right-menu2{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* TERMINA QUERIES PANTALONES */
+
+/* -------------------------------------- */
+    
+/* EMPIEZA QUERIES ABRIGOS */
+
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu3, .right-menu3{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu3{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* tERMINA QUERIES ABRIGOS */
+
+/* -------------------------------------- */
+
+/* EMPIEZA QUERIES REWORK */
+
+#carhartt-rework {
+    background-image: url(../vintage/rework/rework\ banner.jpg);
+    background-size: 175%;
+    width: 100%;
+    height: 690px;
+    background-position: 60% 75%;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+
+#carhartt-rework h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin: 150px 0 10px 0;
+    height: 70px;
+    font-size: 90px;
+    color: white;
+}
+
+#carhartt-rework p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    width: 40%;
+
+
+}
+
+.container-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carousel2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carousel3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel{
+    width: 100%;
+    height: 600px;
+    display: flex;
+   margin: 20px 0 30px 30px;
+    /* border: 1px solid black; */
+ }
+ 
+ .container-rework{
+     display: flex;
+     /* border: 1px solid black; */
+     width: 100%;
+     margin: 10px;
+      
+  }
+
+  .container-rework2{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 10px;
+     
+  }
+  
+  .container-rework img{
+      display: none;
+    
+  }
+  
+   .container-rework2 img{
+      display: none; 
+  }
+  .container-rework3 img{
+      display: none;
+     
+  }
+ 
+  
+  .texto-rework1 h2{
+      font-size: 30px;
+      color: rgb(96, 21, 21);
+      text-align: center;
+  }
+  
+  .texto-rework1 p{
+      font-size: 18px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 0 30px;
+  }
+  
+  .texto-rework2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .texto-rework2 h2{
+      font-size: 30px;
+      color: rgb(96, 21, 21);
+      text-align: center;
+      margin:  30px 0 0 0;
+  }
+  
+  
+  .texto-rework2 p{
+      font-size: 18px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 0 30px;
+  }
+  
+  .texto-rework3 h2{
+      font-size: 30px;
+      color: rgb(96, 21, 21);
+      margin: 60px 0 0 0;
+      text-align: center;
+  }
+  
+  
+  .texto-rework3 p{
+      font-size: 18px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 30px 30px;
+      
+  }
+
+/* TERMINA QUERIES REWORK */
+
+/* ------------------------------------------- */
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    /* EMPIEZA QUERIES INDEX */
+
+    #carhartt {
+        background-image: url(../vintage/iconos\ y\ background\ images/carhartt.PNG);
+        background-size: 150%;
+        width: 100%;
+        height: 610px;
+        /* border: 1px solid black; */
+        background-repeat: no-repeat;
+    }
+
+    #carhartt h1 {
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 0 0;
+        margin: 200px 0 20px 0;
+        height: 150px;
+        font-size: 150px;
+        color: white;
+    }
+    
+    #carhartt p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* border: 1px solid black; */
+        position: relative;
+        margin: 0 auto;
+        color: white;
+        font-size: 16px;
+        width: 50%;
+    
+    
+    }
+
+    .navbar{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 0 auto;
+        /* border: 1px solid black; */
+        width: 100%;
+    }
+
+    .navbar-logo{
+        display: flex;
+        justify-content: flex-start;
+        /* align-items: flex-start; */
+        margin: 0 ;
+        padding: 0 0 0 20px;
+        /* border: 1px solid black; */
+    }
+
+    .navbar-logo img{
+        width: 80%;
+    }
+
+    .navbar-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding:10px 0 0 0;
+        gap: 0px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .navbar-links li{
+      display: inline-block;
+      /* background-color: red; */
+        margin: 0 25px 0 0;
+        padding: 0;
+    }
+
+    .navbar-links li i{
+        /* border: 1px solid black; */
+        width: 20px;
+       display: inline-block;
+       margin: 5px;
+       padding: 0;
+       
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0 0 0 10px;
+        background-color:rgba(0, 0, 0, 0.441);
+        list-style: none;
+    }
+
+    .dropdown-content li{
+        border-bottom: 1px solid rgba(55, 208, 13, 0.405);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.405);
+
+    }
+
+    .navbar-icons{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+        padding: 0 20px;
+        width: 80%;
+        /* border: 1px solid black; */
+    }
+
+    .navbar-icons span{
+        font-size: 20px;
+    }
+
+  
+  .checkbox{
+    display: none;
+  }
+
+  .icons{
+    display: none;
+  }
+
+    #back1 {
+        background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -120% 5%;
+        width: 100%;
+        height: 222px;
+    
+    }
+
+    #back2 {
+        background-image: url(../vintage/abrigos/hoodie.webp);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -200% 10%;
+        width: 100%;
+        height: 222px;
+    }
+
+    #back3 {
+        background-image: url(../vintage/Pantalones/capenter.jpg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: -300% 10%;
+        width: 100%;
+        height: 222px;
+        /* border: 1px solid black; */
+    }
+    
+    
+    .container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        /* border: 1px solid black; */
+        /* flex-direction: row; */
+        width: 100%;
+    }
+    
+    .container-1 {
+        display: flex;
+        width: 50%;
+        margin: 15px 0 0 5px;
+        padding: 0;
+        
+        
+        
+    }
+    
+    .container-3 {
+        display: flex;
+        width: 50%;
+        margin: 15px 0 0 5px;
+        padding: 0
+    }
+    
+    .container-4 {
+        display: flex;
+        width: 50%;
+        margin: 30px 0 0 5px;
+        padding: 0;
+        /* border: 1px solid black; */
+    
+    }
+    .card-content {
+        display: flex;
+        flex: 1;
+        margin: 0 auto;
+        flex-direction: column;
+       
+        padding: 0;
+        /* border: 1px solid #000000; */
+        width: 50%;
+    }
+    
+    .card-content h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+    
+    
+    }
+    
+    .card-content p {
+        text-align: center;
+        margin: 0 auto;
+    
+        font-size: 12px;
+    }
+    
+    .card-content a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        /* border-radius: 4px; */
+    
+    }
+    
+    
+    
+    
+    .comotra-container {
+        margin: 0 auto;
+    }
+    
+    .titulo3 {
+        color: #000;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 ; */
+    }
+    
+    .subtitulo2 {
+        color: rgb(42, 148, 42);
+        display: flex;
+        justify-content: center;
+        /* margin: 0; */
+    }
+    
+    .trabajo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    
+    .carousel2, .carouselExampleIndicators, .carousel.slide, .pointer-event{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width:80%;
+        padding: 10px 0 20px;
+        height: 230px;
+        
+        
+     }
+
+    .card-comotra {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, 30%);
+  padding: 0;
+    }
+    
+    .card-icon {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        
+      
+    
+    }
+    
+    .card-content2 {
+        flex: 1;
+        margin: 0 auto;
+    }
+    
+    .card-content2 p {
+        text-align: center;
+        margin: 0 auto;
+    
+        font-size: 12px;
+    }
+    
+    .card-content2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 10px;
+    
+    
+    }
+    
+    
+    
+    
+
+    .container-4{
+        display: flex;
+        width: 50%;
+        margin: 10px;
+        padding: 0;
+        height: 200px;
+    }
+
+    .footer-fot{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 10px 0 0 20px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .container-footer img{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container-footer p{
+        margin: 0;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .contenedor-redes{
+        margin: 0;
+        padding: 5px 0 0 10px;
+    }
+
+.contenedor-redes span{
+    font-size: 25px;
+}
+
+.lista-full2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    width: 100%;
+}
+
+.lista-full{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0 0 20px;
+    width: 100%;
+}
+
+.tarjetas-logos{
+    margin: 0 auto;
+    padding: 20px 0 0 10px;
+    width: 100%;
+}
+
+.wpp{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.wpp img{
+    width:20%;
+}
+
+/* TERMINA QUERIES INDEX */
+
+ /* -------------------------------------- */
+
+/* EMPIEZA QUERIES T-SHIRTS */
+
+.navbar2{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.navbar-logo2{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    margin: 0 ;
+    padding: 0 0 0 20px;
+    /* border: 1px solid black; */
+}
+
+.navbar-logo2 img{
+    width: 80%;
+}
+
+.navbar-links2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding:20px 0 0 0;
+    gap: 0px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.navbar-links2 li{
+  display: inline-block;
+  /* background-color: red; */
+    margin: 0 25px 0 0;
+    padding: 0;
+}
+
+.navbar-links2 li a{
+    font-size: 16px;
+  }
+
+.navbar-links2 li i{
+    /* border: 1px solid black; */
+    width: 20px;
+   display: inline-block;
+   margin: 5px;
+   padding: 0;
+   
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0 0 0 10px;
+    background-color:rgba(0, 0, 0, 0.441);
+    list-style: none;
+}
+
+.dropdown-content2 li{
+    border-bottom: 1px solid rgba(55, 208, 13, 0.405);
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.405);
+
+}
+
+.navbar-icons2{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.navbar-icons2 span{
+    font-size: 20px;
+}
+
+
+.checkbox{
+display: none;
+}
+
+.icons{
+display: none;
+}
+
+
+.navbar-logo2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 10px 0 0 10px;
+
+
+}
+
+.navbar-logo2 img {
+    width: 100%;
+}
+
+.container-bar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 20px 0 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.574);
+}
+
+.container-bar-left{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container-bar-left h4{
+   font-size: 16px;
+   padding: 10px 20px;
+}
+
+.container-bar-right{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 150%;
+    /* padding: 0 0 0 10px; */
+}
+
+
+.container-bar-right ul{
+    display: flex;
+    gap: 0;
+    margin: 0 auto;
+    
+}
+
+.container-bar-right ul li{
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+
+}
+
+.container-bar-right ul li h2{
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+}
+
+
+.container-bar-right ul li span{
+    
+    font-size: 16px;
+    margin: 5px 0 0 0;
+    
+}
+
+.card-container2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin: 0 auto;
+    padding: 20px 0 0 0 ;
+    width: 80%;
+
+
+
+}
+
+
+
+.container-bar2{
+    display: none;
+}
+
+.rectangle {
+   /* border: 1px solid black; */
+    display: flex;
+   justify-content: center;
+   margin: 10px 0 0 10px ;
+   padding: 0;
+    height: 5px;
+    width: 160px;
+    background-color: #000000;
+}
+
+.container-e{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
+.bar-left{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    width: 20%;
+    
+}
+
+.container-filtrar{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 100%;
+    
+}
+
+.container-filtrar1{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.container-filtrar1 h4{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 10px 0 0 10px;
+    font-size: 16px;
+}
+
+.container-filtrar2{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.container-filtrar2 span button{
+   border: 1px solid black;
+    display: flex;
+    justify-content: center;
+margin: 10px 0 10px ;
+    padding: 0;
+    font-size: 12px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 60px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+.container-filtrar2 span button:hover{
+    background-color: rgba(0, 128, 0, 0.363);
+}
+
+ 
+
+.container-fullbar{
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+.titulo-sidebar1{
+    /* border: 1px solid black; */
+  border-top: 1px solid grey;
+   padding: 25px 0 0 10px ;
+   margin: 15px 0 0 0;
+    
+    
+}
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu, .right-menu{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+    /* border-bottom: 1px solid black; */
+}
+
+
+.button3 {
+    background: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px 30px 26px 0;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.button3:hover {
+    background-color: #01ff0579;
+    cursor: pointer;
+}
+
+
+.estado{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-sidebar2{
+    border-top: 1px solid grey;
+   padding: 25px 0 0 10px ;
+   margin: 15px 0 10px 0;
+}
+
+.arriba, .abajo{
+    margin: 0 0 0 10px;
+
+}
+
+/* TERMINA QUERIES T-SHIRTS */
+
+/* -------------------------------------- */
+    
+/* EMPIEZA QUERIES PANTALONES */
+
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu2, .right-menu2{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* tERMINA QUERIES PANTALONES */
+
+/* -------------------------------------- */
+
+
+    
+/* EMPIEZA QUERIES ABRIGOS */
+
+.menu-vertical{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.left-menu3, .right-menu3{
+    width: 100%;
+    height: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.right-menu3{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* TERMINA QUERIES ABRIGOS */
+
+/* -------------------------------------- */
+
+/* EMPIEZA QUERIES REWORK */
+
+#carhartt-rework {
+    background-image: url(../vintage/rework/rework\ banner.jpg);
+    background-size: 175%;
+    width: 100%;
+    height: 690px;
+    background-position: 60% 75%;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+
+#carhartt-rework h1 {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin: 150px 0 10px 0;
+    height: 70px;
+    font-size: 100px;
+    color: white;
+}
+
+#carhartt-rework p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    width: 40%;
+
+
+}
+
+.container-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carousel2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carousel3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel{
+    width: 100%;
+    height: 700px;
+    display: flex;
+   margin: 20px 0 30px 30px;
+    /* border: 1px solid black; */
+ }
+ 
+ .container-rework{
+     display: flex;
+     /* border: 1px solid black; */
+     width: 100%;
+     margin: 10px;
+      
+  }
+
+  .container-rework2{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 10px;
+     
+  }
+  
+  .container-rework img{
+      display: none;
+    
+  }
+  
+   .container-rework2 img{
+      display: none; 
+  }
+  .container-rework3 img{
+      display: none;
+     
+  }
+ 
+  
+  .texto-rework1 h2{
+      font-size: 30px;
+      color: rgb(96, 21, 21);
+      text-align: center;
+  }
+  
+  .texto-rework1 p{
+      font-size: 18px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 0 30px;
+  }
+  
+  .texto-rework2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .texto-rework2 h2{
+      font-size: 30px;
+      color: rgb(96, 21, 21);
+      text-align: center;
+      margin:  30px 0 0 0;
+  }
+  
+  
+  .texto-rework2 p{
+      font-size: 18px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 0 30px;
+  }
+  
+  .texto-rework3 h2{
+      font-size: 30px;
+      color: rgb(96, 21, 21);
+      margin: 60px 0 0 0;
+      text-align: center;
+  }
+  
+  
+  .texto-rework3 p{
+      font-size: 18px;
+      color: rgb(106, 63, 63);
+      margin: 10px 30px 30px 30px;
+      
+  }
+
+/* TERMINA QUERIES REWORK */
+
+/* ------------------------------------------- */
+}
