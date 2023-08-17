@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PANTALONES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style2.css">
     <script src="https://kit.fontawesome.com/cd86e41317.js" crossorigin="anonymous"></script>
 </head>
@@ -81,23 +83,35 @@
     <main class="main">
         <div class="container-bar">
             <div class="container-bar-left">
-                <h4>
-                    <font color="grey">Inicio </font>/ T-Shirts
-                </h4>
+                <div aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                        <li class="breadcrumb-item"><a href="../html/Pantalones.html">Pantalones</a></li>
+                    </ol>
+                </div>
             </div>
+
             <div class="container-bar-right">
-                <ul>
-                    <li>
-                        <h2>Mostrar: 9 / 12 / 16 / 24</h2>
-                    </li>
-                    <li> <span class="fa-solid fa-bars"></span></li>
-                    <li><span class="fa-solid fa-table-cells-large"></span></li>
-                    <li><span class="fa-solid fa-table-cells"></span></li>
-                    <li><span class="fa-solid fa-border-none"></span></li>
-                    <li>
-                        <h2>Orden por defecto</h2>
-                    </li>
-                </ul>
+                <div id="bread2" class="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">Mostrar:</li>
+                        <li class="breadcrumb-item"><a href="#">5</a></li>
+                        <li class="breadcrumb-item"><a href="#">7</a></li>
+                        <li class="breadcrumb-item"><a href="#">9</a></li>
+                        <li class="breadcrumb-item"><a href="#">12</a></li>
+                    </ol>
+                </div>
+                <div id="bread3">
+                    <ul>
+                        <li> <span class="fa-solid fa-bars"></span></li>
+                        <li><span class="fa-solid fa-table-cells-large"></span></li>
+                        <li><span class="fa-solid fa-table-cells"></span></li>
+                        <li><span class="fa-solid fa-border-none"></span></li>
+                    </ul>
+                </div>
+                <div id="bread4">
+                    <h4>Orden por defecto</h4>
+                </div>
             </div>
         </div>
 
@@ -286,83 +300,84 @@
 
 
     <footer>
-        <footer>
-            <div class="footer-map2">
-                <div class="footer-map">
-                    <h3>¿Donde estamos?</h3>
-                    <h2>PARAGUAY 1376</h2>
-                </div>
-    
-                <!-- MAPA -->
-    
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.032603766956!2d-56.192426999999995!3d-34.905631299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802d57cbebc9%3A0xc81f3acf85d38ad8!2sParaguay%201376%2C%2011100%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1690365943331!5m2!1ses!2suy"
-                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="footer-map2">
+            <div class="footer-map">
+                <h3>¿Donde estamos?</h3>
+                <h2>PARAGUAY 1376</h2>
             </div>
-    
-            <!-- LOGO FOOTER Y REDES SOCIALES -->
-            <div class="footer-fot">
-                <div class="container-footer">
-                    <img src="../vintage/logo footer.png" alt="logo-footer">
-                    <p>Somos una tienda dedicada a llevar prendas unicas directamente a tu closet</p>
-                    <div class="contenedor-redes">
-                        <!-- <img src="./vintage/logo tarjetas/ig gris logo.png" alt=""> -->
-                        <span class="fa-brands fa-instagram"></span>
-                        <!-- <img src="./vintage/logo tarjetas/wpp logo 2.png" alt=""> -->
-                        <span class="fa-brands fa-tiktok"></span>
-                        <!-- <img src="./vintage/logo tarjetas/tik tok gris.png" alt=""> -->
-                        <span class="fa-brands fa-whatsapp"></span>
-                    </div>
-                </div>
-    
-                <!-- LISTA FOOTER -->
-                <!-- <div class="container-inline"> -->
-                <div class="lista-full2">
-                    <div class="lista-empresa">
-                        <h2>Empresa</h2>
-                        <ul>
-                            <li>Nosotros</li>
-                            <li><a href="../html/formulario.html">Contacto</a></li>
-                            <li>Tienda</li>
-                        </ul>
-                    </div>
-                    <div class="lista-compra">
-                        <h2>Compra</h2>
-                        <ul>
-                            <li>Como comprar</li>
-                            <li>Condiciones de compra</li>
-                            <li>Evios y devoluciones</li>
-                        </ul>
-                    </div>
+
+            <!-- MAPA -->
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.032603766956!2d-56.192426999999995!3d-34.905631299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802d57cbebc9%3A0xc81f3acf85d38ad8!2sParaguay%201376%2C%2011100%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1690365943331!5m2!1ses!2suy"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- LOGO FOOTER Y REDES SOCIALES -->
+        <div class="footer-fot">
+            <div class="container-footer">
+                <img src="../vintage/logo footer.png" alt="logo-footer">
+                <p>Somos una tienda dedicada a llevar prendas unicas directamente a tu closet</p>
+                <div class="contenedor-redes">
+                    <!-- <img src="./vintage/logo tarjetas/ig gris logo.png" alt=""> -->
+                    <span class="fa-brands fa-instagram"></span>
+                    <!-- <img src="./vintage/logo tarjetas/wpp logo 2.png" alt=""> -->
+                    <span class="fa-brands fa-tiktok"></span>
+                    <!-- <img src="./vintage/logo tarjetas/tik tok gris.png" alt=""> -->
+                    <span class="fa-brands fa-whatsapp"></span>
                 </div>
             </div>
-            <!-- LOGOS TARJETAS FOOTERS -->
-    
-            <div class="lista-full">
-    
-                <div class="tarjetas-logos">
-                    <img src="../vintage/logo tarjetas/American Express logo.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/Mastercard-logo.svg.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/cabal logo.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/logo-Diners-Club-International.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/oca logo.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/tarjeta lider logo.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/creditel logo.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/red pagos  logo.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/abitab png.png" alt="logo-tarjetas">
-                    <img src="../vintage/logo tarjetas/mercado pago.png" alt="logo-tarjetas">
-    
+
+            <!-- LISTA FOOTER -->
+            <!-- <div class="container-inline"> -->
+            <div class="lista-full2">
+                <div class="lista-empresa">
+                    <h2>Empresa</h2>
+                    <ul>
+                        <li>Nosotros</li>
+                        <li><a href="../html/formulario.html">Contacto</a></li>
+                        <li>Tienda</li>
+                    </ul>
                 </div>
-                <div class="wpp">
-                    <img src="../vintage/logo tarjetas/wpp logo.png" alt="logo-redes">
+                <div class="lista-compra">
+                    <h2>Compra</h2>
+                    <ul>
+                        <li>Como comprar</li>
+                        <li>Condiciones de compra</li>
+                        <li>Evios y devoluciones</li>
+                    </ul>
                 </div>
             </div>
-    
-            
-        </footer>
+        </div>
+        <!-- LOGOS TARJETAS FOOTERS -->
+
+        <div class="lista-full">
+
+            <div class="tarjetas-logos">
+                <img src="../vintage/logo tarjetas/American Express logo.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/Mastercard-logo.svg.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/cabal logo.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/logo-Diners-Club-International.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/oca logo.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/tarjeta lider logo.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/creditel logo.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/red pagos  logo.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/abitab png.png" alt="logo-tarjetas">
+                <img src="../vintage/logo tarjetas/mercado pago.png" alt="logo-tarjetas">
+
+            </div>
+            <div class="wpp">
+                <img src="../vintage/logo tarjetas/wpp logo.png" alt="logo-redes">
+            </div>
+        </div>
+
+
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 
 </body>
