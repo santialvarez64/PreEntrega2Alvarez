@@ -25,7 +25,7 @@ header {
     background-repeat: no-repeat;
 }
 
-.navbar {
+.navbar2 {
     display: flex;
     height: 48px;
     position: relative;
@@ -33,33 +33,34 @@ header {
 
 }
 
-.navbar-logo {
+.navbar-logo2 {
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    /* padding: 0 0 0 50px; */
+    padding: 10px 0 0 70px;
 
 
 }
 
-.navbar-logo img {
-    width: 70%;
+.navbar-logo2 img {
+    width: 80%;
 }
 
-.navbar-icons {
+.navbar-icons2 {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 5px;
-   margin: 0 10px;
-    padding: 0;
-    /* margin: 0 0 0 20px; */
+   
+    padding: 10px 10px 0 0;
+   
 
 }
 
-.navbar-icons span {
-    font-size: 15px;
+.navbar-icons2 span {
+    font-size: 16px;
     color: white;
 
 }
@@ -87,7 +88,7 @@ header {
     opacity: 0;
 }
 
-.fa-x {
+.navbar2 .fa-x {
     display: none;
 }
 
@@ -99,44 +100,46 @@ header {
     display: block;
 }
 
-.navbar-links {
+.navbar-links2 {
     width: 150px;
     position: absolute;
-    margin: 40px;
+    margin: 20px 0 0 45px ;
     border: rgba(0, 0, 0, 0.255);
     display: none;
     /* transition: 250ms; */
 
 }
 
-.navbar-links li {
+.navbar-links2 li {
     list-style: none;
 }
 
 
-.navbar-links li a {
+.navbar-links2 li a {
     /* background-color: rgba(0, 0, 0, 0.332); */
     display: block;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 0;
+    font-size: 12px;
 }
 
-.checkbox:checked~.navbar-links {
+.checkbox:checked~.navbar-links2 {
     display: block;
 }
 
 
-.dropdown-content {
+.dropdown-content2 {
     display: none;
     position: absolute;
-    margin: 0 0 0 110px;
+    margin: -15px 0 0 80px;
     padding: 0;
     background-color: #000000a1;
     list-style: none;
+    /* border: 1px solid black; */
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown2:hover .dropdown-content2 {
     display: flex;
     flex-direction: column;
 }
@@ -737,124 +740,7 @@ footer {
 
 }
 
-.navbar2 {
-    display: flex;
-    height: 48px;
-    position: relative;
-    margin: 0;
 
-}
-
-.navbar-logo2 {
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 10px 0 0 70px;
-
-
-}
-
-.navbar-logo2 img {
-    width: 80%;
-}
-
-.navbar-icons2 {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 5px;
-   
-    padding: 10px 10px 0 0;
-   
-
-}
-
-.navbar-icons2 span {
-    font-size: 16px;
-    color: white;
-
-}
-
-.checkbox,
-.icons {
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    margin: 15px 0 0 15px;
-    color: white;
-    /* top: 10px;
- right: 10px; */
-
-}
-
-.icons {
-    pointer-events: none;
-    font-size: 20px;
-}
-
-.checkbox {
-    opacity: 0;
-}
-
-.fa-x {
-    display: none;
-}
-
-.checkbox:checked~.fa-bars {
-    display: none;
-}
-
-.checkbox:checked~.fa-x {
-    display: block;
-}
-
-.navbar-links2 {
-    width: 150px;
-    position: absolute;
-    margin: 20px 0 0 45px ;
-    border: rgba(0, 0, 0, 0.255);
-    display: none;
-    /* transition: 250ms; */
-
-}
-
-.navbar-links2 li {
-    list-style: none;
-}
-
-
-.navbar-links2 li a {
-    /* background-color: rgba(0, 0, 0, 0.332); */
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 0;
-    font-size: 12px;
-}
-
-.checkbox:checked~.navbar-links2 {
-    display: block;
-}
-
-
-.dropdown-content2 {
-    display: none;
-    position: absolute;
-    margin: -15px 0 0 80px;
-    padding: 0;
-    background-color: #000000a1;
-    list-style: none;
-    /* border: 1px solid black; */
-}
-
-.dropdown2:hover .dropdown-content2 {
-    display: flex;
-    flex-direction: column;
-}
 
 .main-title{
     /* border: 1px solid black; */
@@ -1126,38 +1012,7 @@ margin: 2px 0 0 0;
     }
     
 
-    .navbar-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-      padding: 10px 0 0 20px;
-      /* width: 100%; */
-        /* border: 1px solid black; */
-    
-    
-    }
-    
-    .navbar-logo img {
-        width: 80%;
-    }
-    
-    .navbar-icons {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        gap: 5px;
-        margin: 0 10px;
-        padding: 0;
-        /* margin: 0 0 0 20px; */
-    
-    }
-    
-    .navbar-icons span {
-        font-size: 20px;
-        color: white;
-    
-    }
+   
     
     #back1 {
         background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
@@ -1252,9 +1107,6 @@ margin: 2px 0 0 0;
         padding: 0
     }
     
-    .container-4 {
-        display: none;
-    }
 
 /* ----------------------------------- */
 
@@ -1574,60 +1426,7 @@ margin: 2px 0 0 0;
     
     }
 
-    .navbar-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: 15px 0 0 0;
-    
-    
-    }
-    
-    .navbar-logo img {
-        width: 100%;
-    }
-    
-    .navbar-icons {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        gap: 5px;
-       margin: 10px 15px;
-        padding: 10px 0 0 0;
-        /* margin: 0 0 0 20px; */
-    
-    }
-    
-    .navbar-icons span {
-        font-size: 25px;
-        color: white;
-    
-    }
-    
-
-    .checkbox,
-    .icons {
-        display: block;
-        position: absolute;
-        cursor: pointer;
-        width: 30px;
-        height: 30px;
-        margin: 15px 0 0 15px;
-        color: white;
-        /* top: 10px;
-     right: 10px; */
-    
-    }
-    
-    .icons {
-        pointer-events: none;
-        font-size: 30px;
-    }
-    .fa-x {
-        display: none;
-    }
-
+  
     #back1 {
         background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
         background-repeat: no-repeat;
@@ -2438,97 +2237,7 @@ li{
     
     }
 
-    .navbar{
-        display: flex;
-        /* justify-content: center;
-        align-items: center; */
-        margin: 0 auto;
-        /* border: 1px solid black; */
-        width: 100%;
-    }
-
-    .navbar-logo{
-        display: flex;
-        justify-content: flex-start;
-        /* align-items: flex-start; */
-        margin: 0 ;
-        padding: 0 0 0 20px;
-        /* border: 1px solid black; */
-    }
-
-    .navbar-logo img{
-        width: 80%;
-    }
-
-    .navbar-links{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding:10px 0 0 0;
-        gap: 0px;
-        width: 100%;
-        /* border: 1px solid black; */
-    }
-
-    .navbar-links li{
-      display: inline-block;
-      /* background-color: red; */
-        margin: 0 25px 0 0;
-        padding: 0;
-    }
-
-    .navbar-links li i{
-        /* border: 1px solid black; */
-        width: 20px;
-       display: inline-block;
-       margin: 5px;
-       padding: 0;
-       
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        padding: 0;
-        margin: 0 0 0 10px;
-        background-color:rgba(0, 0, 0, 0.441);
-        list-style: none;
-    }
-
-    .dropdown-content li{
-        border-bottom: 1px solid rgba(55, 208, 13, 0.405);
-        margin: 0;
-        padding: 0;
-    }
-    
-    .dropdown:hover .dropdown-content {
-        cursor: pointer;
-        background-color: rgba(0, 0, 0, 0.405);
-
-    }
-
-    .navbar-icons{
-        display: flex;
-        justify-content: flex-end;
-        margin: 0 auto;
-        padding: 0 20px;
-        width: 75%;
-        /* border: 1px solid black; */
-    }
-
-    .navbar-icons span{
-        font-size: 20px;
-    }
-
   
-  .checkbox{
-    display: none;
-  }
-
-  .icons{
-    display: none;
-  }
 
     #back1 {
         background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
@@ -2587,15 +2296,7 @@ li{
         width: 50%;
         margin: 15px 0 0 5px;
         padding: 0
-    }
-    
-    .container-4 {
-        /* border: 1px solid black; */display: flex;
-        width: 50%;
-        margin: 30px 0 0 5px;
-        padding: 0;
-    }
-        
+    } 
     
 /* ----------------------------------- */
 
@@ -2789,17 +2490,6 @@ li{
     }
 
     
-    
-
-
-    .container-4{
-        display: flex;
-        width: 50%;
-        margin: 10px;
-        padding: 0;
-        height: 200px;
-    }
-
     .footer-fot{
         display: flex;
         justify-content: center;
@@ -3555,97 +3245,7 @@ li{
     
     }
 
-    .navbar{
-        display: flex;
-        /* justify-content: center;
-        align-items: center; */
-        margin: 0 auto;
-        /* border: 1px solid black; */
-        width: 100%;
-    }
-
-    .navbar-logo{
-        display: flex;
-        justify-content: flex-start;
-        /* align-items: flex-start; */
-        margin: 0 ;
-        padding: 0 0 0 20px;
-        /* border: 1px solid black; */
-    }
-
-    .navbar-logo img{
-        width: 80%;
-    }
-
-    .navbar-links{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding:10px 0 0 0;
-        gap: 0px;
-        width: 100%;
-        /* border: 1px solid black; */
-    }
-
-    .navbar-links li{
-      display: inline-block;
-      /* background-color: red; */
-        margin: 0 25px 0 0;
-        padding: 0;
-    }
-
-    .navbar-links li i{
-        /* border: 1px solid black; */
-        width: 20px;
-       display: inline-block;
-       margin: 5px;
-       padding: 0;
-       
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        padding: 0;
-        margin: 0 0 0 10px;
-        background-color:rgba(0, 0, 0, 0.441);
-        list-style: none;
-    }
-
-    .dropdown-content li{
-        border-bottom: 1px solid rgba(55, 208, 13, 0.405);
-        margin: 0;
-        padding: 0;
-    }
     
-    .dropdown:hover .dropdown-content {
-        cursor: pointer;
-        background-color: rgba(0, 0, 0, 0.405);
-
-    }
-
-    .navbar-icons{
-        display: flex;
-        justify-content: flex-end;
-        margin: 0 auto;
-        padding: 0 20px;
-        width: 80%;
-        /* border: 1px solid black; */
-    }
-
-    .navbar-icons span{
-        font-size: 20px;
-    }
-
-  
-  .checkbox{
-    display: none;
-  }
-
-  .icons{
-    display: none;
-  }
 
     #back1 {
         background-image: url(../vintage/abrigos/CARTHARTT\ HOODIE.jpg);
@@ -3705,14 +3305,7 @@ li{
         padding: 0
     }
     
-    .container-4 {
-        display: flex;
-        width: 50%;
-        margin: 30px 0 0 5px;
-        padding: 0;
-        /* border: 1px solid black; */
-    
-    }
+  
     .card-content {
         display: flex;
         flex: 1;
@@ -3889,17 +3482,6 @@ li{
     
     }
     
-    
-    
-    
-
-    .container-4{
-        display: flex;
-        width: 50%;
-        margin: 10px;
-        padding: 0;
-        height: 200px;
-    }
 
     .footer-fot{
         display: flex;
@@ -4078,7 +3660,7 @@ li{
 display: none;
 }
 
-.icons{
+.navbar2 .icons{
 display: none;
 }
 
