@@ -52,7 +52,7 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 5px;
+    gap: 7px;
 
     padding: 10px 10px 0 0;
 
@@ -63,6 +63,18 @@ header {
     font-size: 16px;
     color: white;
 
+}
+
+.cantidad{
+    margin: 5px 0 0 0;
+}
+
+.navbar-icons2 span:hover{
+    transition: 0.5s ease;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    cursor: pointer;
+    color: #bcbcbc;
+    
 }
 
 .checkbox,
@@ -79,10 +91,14 @@ header {
 
 }
 
+
+
 .icons {
     pointer-events: none;
     font-size: 20px;
 }
+
+
 
 .checkbox {
     opacity: 0;
@@ -95,6 +111,7 @@ header {
 .checkbox:checked~.fa-bars {
     display: none;
 }
+
 
 .checkbox:checked~.fa-x {
     display: block;
@@ -115,6 +132,7 @@ header {
 
 .navbar-links2 li {
     list-style: none;
+    text-align: center;
 }
 
 
@@ -123,8 +141,13 @@ header {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 3px;
     font-size: 14px;
+}
+
+.navbar-links2 li:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    transition: 0.5s ease;
 }
 
 .checkbox:checked~.navbar-links2 {
@@ -709,6 +732,11 @@ footer {
     text-align: center;
 }
 
+.contenedor-redes span:hover {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
 /* <!-- LISTA FOOTER --> */
 
 .lista-full2 {
@@ -742,6 +770,13 @@ footer {
     padding: 5px;
 }
 
+.lista-empresa ul li:hover{
+    transition: 0.5s ease;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    cursor: pointer;
+   
+}
+
 .lista-empresa ul li a {
     text-decoration: none;
     color: black;
@@ -769,6 +804,13 @@ footer {
     font-size: 14px;
     padding: 5px;
 }
+
+.lista-compra ul li:hover {
+    transition: 0.5s ease;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    cursor: pointer;
+}
+
 
 /* <!-- LOGOS TARJETAS FOOTERS --> */
 
@@ -876,7 +918,6 @@ footer {
 
 .breadcrumb-item a:hover {
     color: rgb(70, 179, 64);
-    transform: scale(10px);
     transition: .5s;
 }
 
@@ -1544,7 +1585,7 @@ footer {
         display: flex;
         justify-content: end;
         align-items: center;
-        gap: 5px;
+        gap: 7px;
 
         padding: 10px 10px 0 0;
 
@@ -2042,6 +2083,7 @@ footer {
     .container-filtrar2 span button:hover {
         background-color: rgba(0, 128, 0, 0.363);
         cursor: pointer;
+        
     }
 
 
@@ -2071,6 +2113,7 @@ footer {
         overflow-y: scroll;
     }
 
+ 
 
     .left-menu,
     .right-menu {
@@ -2086,6 +2129,11 @@ footer {
         justify-content: flex-end;
     }
 
+    .right-menu ul li:hover{
+        transition: 0.5s ease;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    cursor: pointer;
+    }
 
     ul {
         list-style: none;
@@ -2093,8 +2141,8 @@ footer {
     }
 
     li {
-        padding: 10px;
-        /* border-bottom: 1px solid black; */
+        padding: 11px;
+       
     }
 
 
@@ -2364,7 +2412,7 @@ footer {
         display: flex;
         justify-content: end;
         align-items: center;
-        gap: 5px;
+        gap: 7px;
 
         padding: 10px 10px 0 0;
 
@@ -3105,6 +3153,11 @@ footer {
         justify-content: flex-end;
     }
 
+    .right-menu ul li:hover{
+        transition: 0.5s ease;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    cursor: pointer;
+    }
 
     ul {
         list-style: none;
@@ -3112,7 +3165,7 @@ footer {
     }
 
     li {
-        padding: 10px;
+        padding: 11px;
         /* border-bottom: 1px solid black; */
     }
 
@@ -3428,6 +3481,7 @@ footer {
 
     }
 
+
     .navbar-icons2 {
         display: flex;
         justify-content: flex-end;
@@ -3436,11 +3490,13 @@ footer {
         width: 100%;
         /* border: 1px solid black; */
     }
+    
 
     .navbar-icons2 span {
         font-size: 20px;
     }
-
+    
+    
 
     .checkbox {
         display: none;
@@ -4012,6 +4068,11 @@ footer {
         justify-content: flex-end;
     }
 
+    .right-menu ul li:hover{
+        transition: 0.5s ease;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    cursor: pointer;
+    }
 
     ul {
         list-style: none;
@@ -4019,7 +4080,7 @@ footer {
     }
 
     li {
-        padding: 10px;
+        padding: 11px;
         /* border-bottom: 1px solid black; */
     }
 
