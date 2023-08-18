@@ -3454,8 +3454,9 @@ footer {
     .navbar-links2 li i {
         /* border: 1px solid black; */
         width: 20px;
+        font-size: 10px;
         display: inline-block;
-        margin: 5px;
+        margin: 0;
         padding: 0;
 
     }
