@@ -1154,6 +1154,123 @@ footer {
 
 /* ------------------------------------------- */
 
+/* EMPIEZA SECCIÓN FORMULARIO */
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    /* border: 1px solid black; */
+    height: 700px;
+}
+
+
+
+.formulario{
+   padding: 0 20px;
+    width: 90%;
+}
+
+.background h2{
+    display: flex;
+    margin: 10px;
+}
+
+/* .background form{
+    width: 50%;
+} */
+
+.background textarea{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.background textarea::placeholder{
+    padding: 0 0 0 10px;
+}
+
+.background input{
+    display: flex;
+    margin: 10px;
+    width:100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.background input::placeholder{
+    padding: 0 0 0 10px;
+}
+
+#enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70px;
+    background: rgb(225, 225, 225);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+    border-radius: 30px;
+}
+
+#enviar:hover{
+    background-color: rgb(137, 238, 137);
+    cursor: pointer;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 30px;
+}
+
+.info h3{
+    text-align: center;
+}
+
+.info p{
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 12px;
+    color: #616161;
+    font-weight: 100;
+
+}
+
+.info h2{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.info h4,h5{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.info h4{
+    margin: 20px 0 0;
+    color: #323232;
+}
+
+.info h5{
+    color: #616161;
+}
+
+
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -1522,6 +1639,118 @@ footer {
     /* TERMINA QUERIES REWORK */
 
     /* ------------------------------------------- */
+
+     /* EMPIEZA QUERIES FORMULARIO */
+
+     .background{
+        display: flex;
+       width: 100%;
+       flex-direction: row;
+       margin: 30px 0 30px 0;
+       padding: 0;
+        /* border: 1px solid black; */
+        height: 500px;
+    }
+
+    .formulario{
+        width: 50%;
+        margin: 0 0 0 10px;
+    }
+
+    .background h2{
+        display: flex;
+        margin: 10px;
+    }
+    
+    /* .background form{
+        width: 50%;
+    } */
+    
+    .background textarea{
+        display: flex;
+        margin: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .background textarea::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    .background input{
+        display: flex;
+        margin: 10px;
+        width:100%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    .background input::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    #enviar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 70px;
+        background: rgb(225, 225, 225);
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        text-decoration: none;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+        border-radius: 30px;
+    }
+    
+    #enviar:hover{
+        background-color: rgb(137, 238, 137);
+        cursor: pointer;
+    }
+    
+   
+ 
+
+    .info{
+        margin: 30px;
+        
+    } 
+    
+   
+    
+    .info h3{
+        text-align: center;
+    }
+    
+    .info p{
+        text-align: center;
+        padding: 0 0 20px;
+        font-size: 12px;
+        color: #616161;
+        font-weight: 100;
+    
+    }
+    
+    .info h2{
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 100;
+    }
+    
+    .info h4,h5{
+        text-align: center;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    
+    .info h4{
+        margin: 20px 0 0;
+        color: #323232;
+    }
+    
+    .info h5{
+        color: #616161;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -2339,6 +2568,118 @@ footer {
     /* TERMINA QUERIES REWORK */
 
     /* ------------------------------------------- */
+
+      /* EMPIEZA QUERIES FORMULARIO */
+
+      .background{
+        display: flex;
+       width: 100%;
+       flex-direction: row;
+       margin: 30px 0 30px 0;
+       padding: 0;
+        /* border: 1px solid black; */
+        height: 500px;
+    }
+
+    .formulario{
+        width: 70%;
+        margin: 0 0 0 10px;
+    }
+
+    .background h2{
+        display: flex;
+        margin: 10px;
+    }
+    
+    /* .background form{
+        width: 50%;
+    } */
+    
+    .background textarea{
+        display: flex;
+        margin: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .background textarea::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    .background input{
+        display: flex;
+        margin: 10px;
+        width:100%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    .background input::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    #enviar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 70px;
+        background: rgb(225, 225, 225);
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        text-decoration: none;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+        border-radius: 30px;
+    }
+    
+    #enviar:hover{
+        background-color: rgb(137, 238, 137);
+        cursor: pointer;
+    }
+    
+   
+ 
+
+    .info{
+        margin: 30px;
+        
+    } 
+    
+   
+    
+    .info h3{
+        text-align: center;
+    }
+    
+    .info p{
+        text-align: center;
+        padding: 0 0 20px;
+        font-size: 12px;
+        color: #616161;
+        font-weight: 100;
+    
+    }
+    
+    .info h2{
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 100;
+    }
+    
+    .info h4,h5{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    
+    .info h4{
+        margin: 20px 0 0;
+        color: #323232;
+    }
+    
+    .info h5{
+        color: #616161;
+    }
 
 }
 
@@ -3364,6 +3705,118 @@ footer {
 
     /* ------------------------------------------- */
 
+      /* EMPIEZA QUERIES FORMULARIO */
+
+      .background{
+        display: flex;
+       width: 100%;
+       flex-direction: row;
+       margin: 30px 0 30px 0;
+       padding: 0;
+        /* border: 1px solid black; */
+        height: 500px;
+    }
+
+    .formulario{
+        width: 70%;
+        margin: 0 0 0 10px;
+    }
+
+    .background h2{
+        display: flex;
+        margin: 10px;
+    }
+    
+    /* .background form{
+        width: 50%;
+    } */
+    
+    .background textarea{
+        display: flex;
+        margin: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .background textarea::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    .background input{
+        display: flex;
+        margin: 10px;
+        width:100%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    .background input::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    #enviar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 70px;
+        background: rgb(225, 225, 225);
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        text-decoration: none;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+        border-radius: 30px;
+    }
+    
+    #enviar:hover{
+        background-color: rgb(137, 238, 137);
+        cursor: pointer;
+    }
+    
+   
+ 
+
+    .info{
+        margin: 30px 150px 0 50px;
+        
+    } 
+    
+   
+    
+    .info h3{
+        text-align: center;
+    }
+    
+    .info p{
+        text-align: center;
+        padding: 0 0 20px;
+        font-size: 12px;
+        color: #616161;
+        font-weight: 100;
+    
+    }
+    
+    .info h2{
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 100;
+    }
+    
+    .info h4,h5{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    
+    .info h4{
+        margin: 20px 0 0;
+        color: #323232;
+    }
+    
+    .info h5{
+        color: #616161;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -3434,7 +3887,7 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        padding: 20px 0 0 0;
+        padding: 20px 0 0 0; 
         gap: 0px;
         width: 100%;
         /* border: 1px solid black; */
@@ -4281,4 +4734,119 @@ footer {
     /* TERMINA QUERIES REWORK */
 
     /* ------------------------------------------- */
+
+      /* EMPIEZA QUERIES FORMULARIO */
+
+      .background{
+        display: flex;
+       width: 100%;
+       flex-direction: row;
+       margin: 30px 0 30px 0;
+       padding: 0;
+        /* border: 1px solid black; */
+        height: 500px;
+    }
+
+    .formulario{
+        width: 70%;
+        margin: 0 0 0 10px;
+    }
+
+    .background h2{
+        display: flex;
+        margin: 10px;
+        font-size: 30px;
+    }
+    
+    /* .background form{
+        width: 50%;
+    } */
+    
+    .background textarea{
+        display: flex;
+        margin: 10px;
+        width: 100%;
+        border-radius: 10px;
+    
+    }
+    
+    .background textarea::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    .background input{
+        display: flex;
+        margin: 10px;
+        width:100%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    .background input::placeholder{
+        padding: 0 0 0 10px;
+    }
+    
+    #enviar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 70px;
+        background: rgb(225, 225, 225);
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        text-decoration: none;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.54);
+        border-radius: 30px;
+    }
+    
+    #enviar:hover{
+        background-color: rgb(137, 238, 137);
+        cursor: pointer;
+    }
+    
+   
+ 
+
+    .info{
+        margin: 30px 150px 0 50px;
+        
+    } 
+    
+   
+    
+    .info h3{
+        text-align: center;
+    }
+    
+    .info p{
+        text-align: center;
+        padding: 0 0 20px;
+        font-size: 12px;
+        color: #616161;
+        font-weight: 100;
+    
+    }
+    
+    .info h2{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    
+    .info h4,h5{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    
+    .info h4{
+        margin: 20px 0 0;
+        color: #323232;
+    }
+    
+    .info h5{
+        color: #616161;
+    }
 }
